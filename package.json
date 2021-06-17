@@ -1,9 +1,8 @@
 {
-  "name": "@nodecfdi/nodets-lib-template",
+  "name": "@nodecfdi/utils-internal-baseconverter",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix",
