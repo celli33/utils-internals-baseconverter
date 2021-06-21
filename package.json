@@ -1,8 +1,12 @@
 {
   "name": "@nodecfdi/utils-internal-baseconverter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert a input between arbitrary bases",
   "main": "dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix",
@@ -11,9 +15,23 @@
     "test": "jest",
     "coverage": "jest --coverage"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodecfdi/utils-internals-baseconverter.git"
+  },
+  "keywords": [
+    "base",
+    "convert",
+    "decimal",
+    "hexadecimal",
+    "binary"
+  ],
   "author": "OcelotlStudio <contacto@ocelotlstudio.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodecfdi/utils-internals-baseconverter/issues"
+  },
+  "homepage": "https://github.com/nodecfdi/utils-internals-baseconverter#readme",
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
